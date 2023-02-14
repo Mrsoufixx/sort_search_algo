@@ -1,0 +1,25 @@
+PROCEDURE cartSort(var arr : ARRAY_OF INTEGER)
+VAR
+    i, j, temp: INTEGER;
+BEGIN
+    FOR i FROM 1 TO arr.Length-1 STEP 1  DO
+    temp := arr[i];
+    j := i - 1;
+    WHILE ((j >= 0) and (arr[j] > temp)) DO
+        arr[j+1] := arr[j];
+      j := j - 1;
+    END_WHILE
+    arr[j+1] := temp;
+  END_FOR 
+END
+
+  
+// other solution 
+ 
+PROCEDURE cartSort(var arr : ARRAY_OF INTEGER, cart : INTEGER)
+VAR
+    i, j, temp: INTEGER;
+BEGIN
+    
+    
+END
