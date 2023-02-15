@@ -1,3 +1,16 @@
+ALGORITHM sortCard
+VAR
+  cart : INTEGER;
+  arr :ARRAY_OF INTEGER
+BEGIN
+  Read(cart)
+
+END
+
+
+ 
+// other solution 
+
 PROCEDURE cartSort(var arr : ARRAY_OF INTEGER)
 VAR
     i, j, temp: INTEGER;
@@ -14,12 +27,6 @@ BEGIN
 END
 
   
-// other solution 
+
  
-PROCEDURE cartSort(var arr : ARRAY_OF INTEGER, cart : INTEGER)
-VAR
-    i, j, temp: INTEGER;
-BEGIN
-    
-    
-END
+
